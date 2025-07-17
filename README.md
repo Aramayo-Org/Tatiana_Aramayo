@@ -1,3 +1,4 @@
+![Build & Deploy Status](https://github.com/Aramayo-Org/Tatiana_Aramayo/actions/workflows/hugo.yml/badge.svg)
 # Personal Website
 
 This is my personal website built with Hugo, a fast and modern static site generator. The site features a clean, responsive design powered by Tailwind CSS and uses my own theme, CareerCanvas.
