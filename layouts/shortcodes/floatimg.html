@@ -1,0 +1,67 @@
+{{ $src := .Get "src" | relURL }}
+{{ $alt := .Get "alt" }}
+{{ $align := .Get "align" | default "right" }}
+{{ $width := .Get "width" | default "400px" }}
+{{ $link := .Get "link" }}
+{{ $caption := .Get "caption" }}
+
+<figure
+  style="
+    float: {{ $align }};
+    margin: {{ if eq $align "left" }}0 1.5em 1em 0{{ else }}0 0 1em 1.5em{{ end }};
+    width: {{ $width }};
+    display: block;
+    text-align: center;
+  "
+>
+  {{ if $link }}
+    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+  {{ end }}
+    <img
+      src="{{ $src }}"
+      alt="{{ $alt }}"
+      style="width: 100%; height: auto; border-radius: 6px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+    />
+  {{ if $link }}
+    </a>
+  {{ end }}
+  
+  {{ if $caption }}
+    <figcaption style="font-size: 0.9em; color: #555; margin-top: 0.4em;">{{ $caption }}</figcaption>
+  {{ end }}
+</figure>
+
+<!-- {{ $src := .Get "src" | relURL }} -->
+<!-- {{ $alt := .Get "alt" }} -->
+<!-- {{ $align := .Get "align" | default "right" }} -->
+<!-- {{ $width := .Get "width" | default "300px" }} -->
+<!-- {{ $link := .Get "link" }} -->
+
+<!-- {{ if $link }} -->
+<!--   <a href="{{ $link }}" target="_blank" rel="noopener noreferrer"> -->
+<!-- {{ end }} -->
+<!--   <img  -->
+<!--     src="{{ $src }}"  -->
+<!--     alt="{{ $alt }}" -->
+<!--     style=" -->
+<!--       float: {{ $align }}; -->
+<!--       margin: {{ if eq $align "left" }}0 1.5em 1em 0{{ else }}0 0 1em 1.5em{{ end }}; -->
+<!--       width: {{ $width }}; -->
+<!--       display: block; -->
+<!--     " -->
+<!--   /> -->
+<!-- {{ if $link }} -->
+<!--   </a> -->
+<!-- {{ end }} -->
+
+<!-- <img  -->
+<!--   src="{{ .Get "src" | relURL }}"  -->
+<!--   alt="{{ .Get "alt" }}" -->
+<!--   style=" -->
+<!--     float: {{ .Get "align" | default "right" }}; -->
+<!--     margin: {{ if eq (.Get "align") "left" }}0 1.5em 1em 0{{ else }}0 0 1em 1.5em{{ end }}; -->
+<!--     width: {{ .Get "width" | default "300px" }}; -->
+<!--     display: block; -->
+<!--   " -->
+<!-- /> -->
+

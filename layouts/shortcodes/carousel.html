@@ -1,0 +1,112 @@
+<div class="carousel">
+  {{ range .Params }}
+    <div class="slide">
+      <img src="{{ . }}" loading="lazy" />
+    </div>
+  {{ end }}
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.carousel .slide');
+  let current = 0;
+
+  function show(index) {
+    slides.forEach((s, i) => s.style.display = i === index ? 'block' : 'none');
+  }
+
+  function next() {
+    current = (current + 1) % slides.length;
+    show(current);
+  }
+
+  function prev() {
+    current = (current - 1 + slides.length) % slides.length;
+    show(current);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    show(current);
+    const carousel = document.querySelector('.carousel');
+    carousel.insertAdjacentHTML('beforeend', `
+      <button class="carousel-btn prev" onclick="prev()">❮</button>
+      <button class="carousel-btn next" onclick="next()">❯</button>
+    `);
+  });
+</script>
+
+<style>
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 2em auto;
+    text-align: center;
+  }
+
+  .slide {
+    display: none;
+  }
+
+  .slide img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .carousel-btn.prev {
+    left: 10px;
+  }
+
+  .carousel-btn.next {
+    right: 10px;
+  }
+
+  .carousel-btn:hover {
+    background-color: rgba(255,255,255,1);
+  }
+</style>
+<!-- <div class="carousel"> -->
+<!--   {{ range $i, $img := .Params }} -->
+<!--     <div class="carousel-slide" style="display:{{ if eq $i 0 }}block{{ else }}none{{ end }};"> -->
+<!--       <img src="{{ $img }}" style="width:100%;" /> -->
+<!--     </div> -->
+<!--   {{ end }} -->
+
+<!--   <button onclick="prevSlide()">❮</button> -->
+<!--   <button onclick="nextSlide()">❯</button> -->
+<!-- </div> -->
+
+<!-- <script> -->
+<!-- let index = 0; -->
+<!-- function showSlide(i) { -->
+<!--   let slides = document.querySelectorAll('.carousel-slide'); -->
+<!--   slides.forEach((s, j) => s.style.display = j === i ? 'block' : 'none'); -->
+<!-- } -->
+<!-- function nextSlide() { -->
+<!--   let slides = document.querySelectorAll('.carousel-slide'); -->
+<!--   index = (index + 1) % slides.length; -->
+<!--   showSlide(index); -->
+<!-- } -->
+<!-- function prevSlide() { -->
+<!--   let slides = document.querySelectorAll('.carousel-slide'); -->
+<!--   index = (index - 1 + slides.length) % slides.length; -->
+<!--   showSlide(index); -->
+<!-- } -->
+<!-- document.addEventListener('DOMContentLoaded', () => showSlide(index)); -->
+<!-- </script> -->

@@ -1,0 +1,111 @@
+## baseURL = "https://felipecordero.com"
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Tatiana Aramayo"
+theme = "careercanvas"
+
+[build]
+  writeStats = true
+
+[params]
+name = "Tatiana Aramayo"
+tagline = "Marketer | Writer | Event Coordinator"
+location = "College Station, Texas USA"
+email = "tatiana@aramayo.org"
+profile_image = "/images/config/Tatiana_Picture.png"
+##description = "I'm a marketer, writer, copy editor, event coordinator, and professional dog snuggler with a passion for science and thirst for knowledge."
+author = "Tatiana Aramayo"
+
+og_image = "images/config/Tatiana-og.png"
+
+hero_description = "Sup? I'm a marketer, writer, event coordinator, copy editor, and professional dog snuggler with a passion for science and thirst for knowledge"
+hero_location = "College Station, Texas"
+
+resume_url_en = "/files/Tatiana_Resume.pdf"
+resume_label = "View Resume"
+
+linkedin_url = "https://www.linkedin.com/in/tatianaaramayo/"
+linkedin_text = "linkedin.com/in/tatianaaramayo/"
+
+github_url = "https://github.com/Tatiana-Aramayo"
+github_text = "github.com/Tatiana-Aramayo"
+
+copyright = "© 2025 | Tatiana Aramayo"
+
+collab_tags = [
+  "Marketer",
+  "Writer",
+  "Copy Editor",
+  "Biologist",
+  "Prefessional Dog Snuggler"
+]
+
+formspree_endpoint = "https://formspree.io/f/xgvkkdnn" # Change to your Formspree endpoint
+[[params.social]]
+icon = "linkedin-in"
+url = "https://www.linkedin.com/in/tatianaaramayo/"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/Tatiana-Aramayo"
+
+sectionPagesMenu = 'main'
+
+[menu]
+[[menu.main]]
+name = "About"
+url = "/#about"
+weight = 1
+
+[[menu.main]]
+name = "Skills"
+url = "/#skills"
+weight = 2
+
+[[menu.main]]
+name = "Experience"
+url = "/#experience"
+weight = 3
+
+[[menu.main]]
+name = "Technical Skills"
+url = "/#technical"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/#contact"
+weight = 5
+
+[[menu.main]]
+name = "Certifications"
+url = "/certifications/"
+weight = 6
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio/"
+weight = 7
+pre = "portfolio"
+
+[[menu.main]]
+name = "Digital Marketing"
+url = "/digital_marketing/"
+weight = 8
+pre = "digital_marketing"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
