@@ -52,7 +52,9 @@ technical_groups:
         name: "Adobe Acrobat"
       - icon: "palette"
         name: "Adobe Creative Suite"
-
+      - icon: "github"
+        name: "GitHub"
+        
   - title: "Social Media"
     skills:
       - icon: "hashtag"
@@ -61,4 +63,57 @@ technical_groups:
         name: "Canva"
       - icon: "dove"
         name: "Twitter (X)"
+      - icon: "facebook"
+        name: "Facebook"
+      - icon: "square-instagram"
+        name: "Instagram"
+      - icon: "linkedin"
+        name: "LinkedIn"
+
+  - title: "Web Content Management"
+    skills:
+      - icon: "wordpress"
+        name: "WordPress"
+      - icon: "drupal"
+        name: "Drupal"
+      - icon: "google"
+        name: "Google Sites"
+      - icon: "html5"
+        name: "HTML"
+        
+  - title: "Analytics & Reporting"
+    skills:
+      - icon: "google"
+        name: "Google Analytics"
+      - icon: "google"
+        name: "Google Ads"
+      - icon: "file-excel"
+        name: "Excel"
+      - icon: "google"
+        name: "Google Sheets"
+      - icon: "dna"
+        name: "Galaxy"
+        
+  - title: "Soft Skills"
+    skills:
+      - icon: "brain"
+        name: "Critical Thinking"
+      - icon: "lightbulb"
+        name: "Initiative"
+      - icon: "hand-shake"
+        name: "Team Collaboration"
+      - icon: "list-check"
+        name: "Multi-tasking"
+      - icon: "user-gear"
+        name: "Adaptability"
+      - icon: "bolt"
+        name: "Quick Learning"
+      - icon: "magnifying-glass-chart"
+        name: "Research-Oriented"
+        
+      
+        
+        
+
+        
 ---
