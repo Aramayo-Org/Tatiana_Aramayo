@@ -77,40 +77,39 @@ draft: false
     <option value="/digital_marketing/topic_07.html" data-label="">07. Respond to Customer Comments</option>
     <option value="/digital_marketing/topic_08.mp4"  data-label="">08. Design a Social Media Post Using Canva</option>
     <option value="/digital_marketing/topic_09.html" data-label="">09. Analyze Social Media Performance</option>
-    <option value="/digital_marketing/topic_10.html" data-label="">10. Analyze Social Media Performance</option>
-    <option value="/digital_marketing/topic_11.html" data-label="">11. Create a Social Media Report Email</option>
-    <option value="/digital_marketing/topic_12.html" data-label="">12. Create Social Media Ad Campaign</option>
-    <option value="/digital_marketing/topic_13.html" data-label="">13. Write Subject Lines and Preview Text</option>
-    <option value="/digital_marketing/topic_14.html" data-label="">14. Write a Retention Email</option>
-    <option value="/digital_marketing/topic_15.html" data-label="">15. Write an Apology Email</option>
-    <option value="/digital_marketing/topic_16.html" data-label="">16. Present Email Marketing Data to Stakeholders</option>
-    <option value="/digital_marketing/topic_17.html" data-label="">17. Create SMART Goals for an Email Campaign</option>
-    <option value="/digital_marketing/topic_18.html" data-label="">18. Segment an Email List</option>
-    <option value="/digital_marketing/topic_19.html" data-label="">19. Complete an Email Series</option>
-    <option value="/digital_marketing/topic_20.html" data-label="">20. Complete Email Campaign Presentation for Stakeholders</option>
-    <option value="/digital_marketing/topic_21.html" data-label="">21. Set Performance Goals</option>
-    <option value="/digital_marketing/topic_22.html" data-label="">22. Google Analytics Metrics</option>
-    <option value="/digital_marketing/topic_23.html" data-label="">23. Create an Exploration in Google Analytics</option>
-    <option value="/digital_marketing/topic_24.html" data-label="">24. Create Google Ad Recommendations</option>
-    <option value="/digital_marketing/topic_25.html" data-label="">25. Explore Linked Data in Google Analytics</option>
-    <option value="/digital_marketing/topic_26.html" data-label="">26. Make Campaign Budget Decisions</option>
-    <option value="/digital_marketing/topic_27.html" data-label="">27. Plan an A/B Test</option>
-    <option value="/digital_marketing/topic_28.html" data-label="">28. Complete Stakeholder Communication Plan</option>
-    <option value="/digital_marketing/topic_29.html" data-label="">29. Sort and Filter Spreadsheet Data</option>
-    <option value="/digital_marketing/topic_30.html" data-label="">30. Analyze Data Using Pivot Tables</option>
-    <option value="/digital_marketing/topic_31.html" data-label="">31. Create Data Visualizations for Presentation</option>
-    <option value="/digital_marketing/topic_32.html" data-label="">32. Present Data Insights to Stakeholders</option>
-    <option value="/digital_marketing/topic_33.html" data-label="">33. Perform a Competitive Analysis</option>
-    <option value="/digital_marketing/topic_34.html" data-label="">34. Identify Brand Values</option>
-    <option value="/digital_marketing/topic_35.html" data-label="">35. Create a Mock e-Commerce Store with Shopify</option>
-    <option value="/digital_marketing/topic_36.html" data-label="">36. Set Seasonal Budgets and Bids</option>
-    <option value="/digital_marketing/topic_37.html" data-label="">37. Evaluate Checkout Process of eCommerce Store</option>
-    <option value="/digital_marketing/topic_38.html" data-label="">38. Write a Customer Satisfaction Survey</option>
-    <option value="/digital_marketing/topic_39.html" data-label="">39. Use Heat Map to Optimize a Landing Page</option>
-    <option value="/digital_marketing/topic_40.html" data-label="">40. Suggest New Product Category Based on Search Data</option>
-    <option value="/digital_marketing/topic_41.html" data-label="">41. Create an Internal Marketing Proposal</option>
-    <option value="/digital_marketing/topic_42.html" data-label="">42. Adjust Campaign KeyWords</option>
-    <option value="/digital_marketing/topic_43.html" data-label="">43. Create Marketing Report Presentation</option>
+    <option value="/digital_marketing/topic_10.html" data-label="">10. Create a Social Media Report Email</option>
+    <option value="/digital_marketing/topic_11.html" data-label="">11. Create Social Media Ad Campaign</option>
+    <option value="/digital_marketing/topic_12.html" data-label="">12. Write Subject Lines and Preview Text</option>
+    <option value="/digital_marketing/topic_13.html" data-label="">13. Write a Retention Email</option>
+    <option value="/digital_marketing/topic_14.html" data-label="">14. Write an Apology Email</option>
+    <option value="/digital_marketing/topic_15.html" data-label="">15. Present Email Marketing Data to Stakeholders</option>
+    <option value="/digital_marketing/topic_16.html" data-label="">16. Create SMART Goals for an Email Campaign</option>
+    <option value="/digital_marketing/topic_17.html" data-label="">17. Segment an Email List</option>
+    <option value="/digital_marketing/topic_18.html" data-label="">18. Complete an Email Series</option>
+    <option value="/digital_marketing/topic_19.html" data-label="">19. Complete Email Campaign Presentation for Stakeholders</option>
+    <option value="/digital_marketing/topic_20.html" data-label="">20. Set Performance Goals</option>
+    <option value="/digital_marketing/topic_21.html" data-label="">21. Google Analytics Metrics</option>
+    <option value="/digital_marketing/topic_22.html" data-label="">22. Create an Exploration in Google Analytics</option>
+    <option value="/digital_marketing/topic_23.html" data-label="">23. Create Google Ad Recommendations</option>
+    <option value="/digital_marketing/topic_24.html" data-label="">24. Explore Linked Data in Google Analytics</option>
+    <option value="/digital_marketing/topic_25.html" data-label="">25. Make Campaign Budget Decisions</option>
+    <option value="/digital_marketing/topic_26.html" data-label="">26. Plan an A/B Test</option>
+    <option value="/digital_marketing/topic_27.html" data-label="">27. Complete Stakeholder Communication Plan</option>
+    <option value="/digital_marketing/topic_28.html" data-label="">28. Sort and Filter Spreadsheet Data</option>
+    <option value="/digital_marketing/topic_29.html" data-label="">29. Analyze Data Using Pivot Tables</option>
+    <option value="/digital_marketing/topic_30.html" data-label="">30. Create Data Visualizations for Presentation</option>
+    <option value="/digital_marketing/topic_31.html" data-label="">31. Present Data Insights to Stakeholders</option>
+    <option value="/digital_marketing/topic_32.html" data-label="">32. Perform a Competitive Analysis</option>
+    <option value="/digital_marketing/topic_33.html" data-label="">33. Identify Brand Values</option>
+    <option value="/digital_marketing/topic_34.html" data-label="">34. Create a Mock e-Commerce Store with Shopify</option>
+    <option value="/digital_marketing/topic_35.html" data-label="">35. Set Seasonal Budgets and Bids</option>
+    <option value="/digital_marketing/topic_36.html" data-label="">36. Evaluate Checkout Process of eCommerce Store</option>
+    <option value="/digital_marketing/topic_37.html" data-label="">37. Write a Customer Satisfaction Survey</option>
+    <option value="/digital_marketing/topic_38.html" data-label="">38. Use Heat Map to Optimize a Landing Page</option>
+    <option value="/digital_marketing/topic_39.html" data-label="">39. Suggest New Product Category Based on Search Data</option>
+    <option value="/digital_marketing/topic_40.html" data-label="">40. Create an Internal Marketing Proposal</option>
+    <option value="/digital_marketing/topic_41.html" data-label="">41. Adjust Campaign KeyWords</option>
+    <option value="/digital_marketing/topic_42.html" data-label="">42. Create Marketing Report Presentation</option>
   </select>
 </div>
 
