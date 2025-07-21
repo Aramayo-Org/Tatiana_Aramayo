@@ -460,6 +460,8 @@
       "sm:flex-row",
       "sm:px-3",
       "sm:px-6",
+      "sm:space-x-4",
+      "sm:space-y-0",
       "space-x-4",
       "space-x-6",
       "space-x-8",
